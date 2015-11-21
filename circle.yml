@@ -2,5 +2,4 @@ test:
   pre:
     - |
       [[ "A" == "A" ]] && echo "A does equal A"
-
       [[ "B" == "B" ]] && echo "B does equal B"
