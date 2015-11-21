@@ -10,3 +10,7 @@ test:
       else
         echo "C" != "D", good!
       fi
+
+      echo another line
+
+      printf "This is using %s\n" "printf"
