@@ -2,3 +2,11 @@ test:
   pre:
     - |
       [[ "B" == "B" ]] && echo "B does equal B"
+
+    - | # An if statement as mutliple lines
+      if [[ "C" == "D" ]]
+      then
+        echo amazing "C" == "D", somethings wrong!
+      else
+        echo "C" != "D", good!
+      fi
